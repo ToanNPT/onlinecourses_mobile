@@ -1,0 +1,1 @@
+final String APPBAR_TITLE = "Legacy Courses";
