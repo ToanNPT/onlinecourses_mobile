@@ -1,4 +1,3 @@
-import 'package:first_ui/main.dart';
 import 'package:first_ui/pages/home_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -20,9 +19,13 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
       backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.green,
-        title: Text(constantsString.APPBAR_TITLE),
+        backgroundColor: Colors.white,
+        title: Center(
+            child: Text(constantsString.APPBAR_TITLE,
+                style: TextStyle(
+                    color: Colors.black, wordSpacing: 1.2, letterSpacing: 1))),
       ),
+
       body: SingleChildScrollView(
           child: Column(
         children: [

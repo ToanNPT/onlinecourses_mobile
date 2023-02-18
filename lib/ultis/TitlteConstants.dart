@@ -1,1 +1,1 @@
-final String APPBAR_TITLE = "Legacy Courses";
+final String APPBAR_TITLE = "Legacy Center";
